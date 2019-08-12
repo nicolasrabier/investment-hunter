@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "domain.oauth.client.id",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.oauth.client.id'"
+  },
+  {
+    "name": "domain.oauth.client.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.oauth.client.secret'"
+  },
+  {
+    "name": "domain.api.token.url",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.api.token.url'"
+  },
+  {
+    "name": "domain.api.listings.residential.search.url",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.api.listings.residential.search.url'"
+  },
+  {
+    "name": "domain.api.host",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.api.host'"
+  },
+  {
+    "name": "domain.api.protocol",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.api.protocol'"
+  },
+  {
+    "name": "domain.api.port",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.api.port'"
+  },
+  {
+    "name": "domain.api.host",
+    "type": "java.lang.String",
+    "description": "A description for 'domain.api.host'"
+  }
+]}
