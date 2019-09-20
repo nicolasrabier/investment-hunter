@@ -38,5 +38,90 @@
     "name": "domain.api.host",
     "type": "java.lang.String",
     "description": "A description for 'domain.api.host'"
+  },
+  {
+    "name": "finance.deposit",
+    "type": "java.lang.String",
+    "description": "A description for 'finance.deposit'"
+  },
+  {
+    "name": "finance.interest.rate",
+    "type": "java.lang.String",
+    "description": "A description for 'finance.interest.rate'"
+  },
+  {
+    "name": "finance.installment.years",
+    "type": "java.lang.String",
+    "description": "A description for 'finance.installment.years'"
+  },
+  {
+    "name": "search.criteria.property.type",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.property.type'"
+  },
+  {
+    "name": "search.criteria.state",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.state'"
+  },
+  {
+    "name": "search.criteria.postcode",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.postcode'"
+  },
+  {
+    "name": "search.criteria.minBedrooms",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.minBedrooms'"
+  },
+  {
+    "name": "search.criteria.maxBedrooms",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.maxBedrooms'"
+  },
+  {
+    "name": "search.criteria.suburb",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.suburb'"
+  },
+  {
+    "name": "search.criteria.minCarspaces",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.minCarspaces'"
+  },
+  {
+    "name": "search.criteria.maxCarspaces",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.maxCarspaces'"
+  },
+  {
+    "name": "search.criteria.min.bedrooms",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.min.bedrooms'"
+  },
+  {
+    "name": "search.criteria.max.bedrooms",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.max.bedrooms'"
+  },
+  {
+    "name": "search.criteria.min.carspaces",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.min.carspaces'"
+  },
+  {
+    "name": "search.criteria.max.carspaces",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.max.carspaces'"
+  },
+  {
+    "name": "search.criteria.region",
+    "type": "java.lang.String",
+    "description": "A description for 'search.criteria.region'"
+  },
+  {
+    "name": "finance.max.emi",
+    "type": "java.lang.String",
+    "description": "A description for 'finance.max.emi'"
   }
 ]}

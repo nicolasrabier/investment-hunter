@@ -4,6 +4,7 @@ package com.nicolasrabier.investmenthunter.ws.consumer.dto.domain;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -36,7 +37,7 @@ public class Advertiser_ {
     @JsonProperty("bannerUrl")
     private String bannerUrl;
     @JsonProperty("contacts")
-    private List<Contact_> contacts = null;
+    private List<Contact> contacts = null;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
@@ -101,12 +102,12 @@ public class Advertiser_ {
     }
 
     @JsonProperty("contacts")
-    public List<Contact_> getContacts() {
+    public List<Contact> getContacts() {
         return contacts;
     }
 
     @JsonProperty("contacts")
-    public void setContacts(List<Contact_> contacts) {
+    public void setContacts(List<Contact> contacts) {
         this.contacts = contacts;
     }
 

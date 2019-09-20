@@ -4,6 +4,7 @@ package com.nicolasrabier.investmenthunter.ws.consumer.dto.domain;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -24,7 +25,7 @@ public class InspectionSchedule_ {
     @JsonProperty("recurring")
     private Boolean recurring;
     @JsonProperty("times")
-    private List<Time_> times = null;
+    private List<Time> times = null;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
@@ -49,12 +50,12 @@ public class InspectionSchedule_ {
     }
 
     @JsonProperty("times")
-    public List<Time_> getTimes() {
+    public List<Time> getTimes() {
         return times;
     }
 
     @JsonProperty("times")
-    public void setTimes(List<Time_> times) {
+    public void setTimes(List<Time> times) {
         this.times = times;
     }
 

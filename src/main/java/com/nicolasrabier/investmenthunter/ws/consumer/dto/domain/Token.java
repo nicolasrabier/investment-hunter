@@ -10,8 +10,13 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({ "access_token", "expires_in", "token_type" })
+@AllArgsConstructor
+@NoArgsConstructor
 public class Token {
 
 	@JsonProperty("access_token")
@@ -22,7 +27,7 @@ public class Token {
 	private String tokenType;
 	@JsonIgnore
 	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-
+	
 	@JsonProperty("access_token")
 	public String getAccessToken() {
 		return accessToken;

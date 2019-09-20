@@ -4,6 +4,7 @@ package com.nicolasrabier.investmenthunter.ws.consumer.dto.domain;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -25,7 +26,7 @@ public class DomainSearchContractsV2SearchResult {
     @JsonProperty("listing")
     private Listing listing;
     @JsonProperty("listings")
-    private List<Listing_> listings = null;
+    private List<Listing> listings = null;
     @JsonProperty("project")
     private Project project;
     @JsonIgnore
@@ -52,12 +53,12 @@ public class DomainSearchContractsV2SearchResult {
     }
 
     @JsonProperty("listings")
-    public List<Listing_> getListings() {
+    public List<Listing> getListings() {
         return listings;
     }
 
     @JsonProperty("listings")
-    public void setListings(List<Listing_> listings) {
+    public void setListings(List<Listing> listings) {
         this.listings = listings;
     }
 

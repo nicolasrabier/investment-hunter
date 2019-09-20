@@ -4,6 +4,7 @@ package com.nicolasrabier.investmenthunter.ws.consumer.dto.domain;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -52,7 +53,7 @@ public class Project {
     @JsonProperty("features")
     private List<String> features = null;
     @JsonProperty("media")
-    private List<Medium__> media = null;
+    private List<Medium> media = null;
     @JsonProperty("projectSlug")
     private String projectSlug;
     @JsonIgnore
@@ -169,12 +170,12 @@ public class Project {
     }
 
     @JsonProperty("media")
-    public List<Medium__> getMedia() {
+    public List<Medium> getMedia() {
         return media;
     }
 
     @JsonProperty("media")
-    public void setMedia(List<Medium__> media) {
+    public void setMedia(List<Medium> media) {
         this.media = media;
     }
 
